@@ -17,7 +17,7 @@ export class TopheadingComponent implements OnInit {
 
     this._services.topHeading().subscribe((result)=>{
       console.log(result);
-      this.topheadingDisplay = result.articles;
+      this.topheadingDisplay = result.results;
       
     })
   }

@@ -10,10 +10,13 @@ export class NewsapiservicesService {
   constructor(private _http:HttpClient) { }
 
   //newsapiUrl
-  newsApiUrl = "https://newsapi.org/v2/top-headlines?country=us&apiKey=26e8675d304c44669477c37028713bc5"
+  // newsApiUrl = "https://newsapi.org/v2/top-headlines?country=us&apiKey=26e8675d304c44669477c37028713bc5"
+  newsApiUrl = "https://newsdata.io/api/1/news?apikey=pub_11687eab369eb0d3eaedd09895035f89a084b&category=world&language=en"
 
   //technewsapiUrl
-  techApiUrl = "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=26e8675d304c44669477c37028713bc5"
+  // techApiUrl = "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=26e8675d304c44669477c37028713bc5"
+
+  techApiUrl = "https://newsdata.io/api/1/news?apikey=pub_11687eab369eb0d3eaedd09895035f89a084b&category=technology&language=en"
 
 
   //businessewsapiUrl
