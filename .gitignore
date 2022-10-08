@@ -4,3 +4,4 @@ node_modules
 .browserslistrc
 .editorconfig
 .DS_Store
+dist
